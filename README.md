@@ -1,98 +1,46 @@
 📊 Customer Shopping Behavior Analysis
 
-A complete data analysis project using Python, MySQL, and Power BI
+A data analysis project exploring customer spending patterns, loyalty behavior, discount impact, and demographic insights using Python, MySQL, and Power BI.
 
-📌 Overview
+🚀 Project Workflow
+1. Python (Data Cleaning & EDA)
 
-This project analyzes customer shopping behavior using a retail dataset containing 3,900 rows and 18 features.
-The goal is to uncover insights about customer spending patterns, loyalty, product preferences, discount dependency, and demographic trends to support better business decisions.
+-Handled missing values, outliers, and standardized columns.
 
-🗂️ Project Workflow
-1. Data Cleaning & Preprocessing (Python)
+-Engineered features: age_group, purchase_frequency_days.
 
-Handled missing values (median imputation).
+-Performed EDA to understand spending trends, product preferences, and demographic patterns.
 
-Performed outlier detection and removal.
+2. SQL Analysis (MySQL)
 
-Standardized column names and data types.
+-Loaded cleaned data into MySQL.
 
-Engineered new features:
+-Analyzed customer lifetime value, discount dependency, subscription likelihood, repeat purchases, and revenue trends.
 
-age_group
+-Identified top products and customer segments (New, Returning, Loyal).
 
-purchase_frequency_days
+3. Power BI Dashboard
 
-Validated dataset consistency and removed redundant columns.
+-Built an interactive dashboard showcasing:
 
-2. Exploratory Data Analysis (Python)
+-Revenue by demographics
 
-Summary statistics and distribution analysis.
+-High-performing products
 
-Revenue patterns by age, gender, and category.
+-Discount-based behavior
 
-Correlation analysis for key numerical variables.
-
-Identified discount impact on purchasing behavior.
-
-🛢️ SQL Analysis (MySQL)
-
-The cleaned dataset was loaded into MySQL for structured analysis.
-Key queries explored:
-
-Customer Lifetime Value (CLV)
-
-Discount dependency & high-spend discount users
-
-Subscription vs. non-subscription behavior
-
-Repeat purchase patterns
-
-Revenue by age group and gender
-
-Top-rated and top-selling products
-
-Shipping type impact on spending
-
-Customer segmentation: New, Returning, Loyal
-
-📊 Dashboard (Power BI)
-
-An interactive Power BI dashboard was built with:
-
-Revenue trends
-
-Customer segments
-
-Top products by rating & sales
-
-Discount-based buying patterns
-
-Demographic insights
-
-Shipping preference analysis
-
-The dashboard helps stakeholders make data-driven marketing and product decisions.
+-Shipping trends & customer segments
 
 🧠 Key Insights
 
-High-spend customers frequently use express shipping.
+-Repeat buyers show higher subscription likelihood.
 
-Repeat buyers show higher subscription likelihood.
+-Discounts increase purchases but affect margins.
 
-Specific age groups contribute the highest revenue.
+-Specific age groups contribute most to revenue.
 
-Discounts influence purchase frequency but reduce margins.
-
-Some product categories are highly rating-sensitive.
+-Express shipping users tend to spend more.
 
 🛠️ Tech Stack
 
-Languages & Tools:
-
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-
-MySQL
-
-Power BI
-
-Jupyter Notebook
+Python, Pandas, MySQL, Power BI, Jupyter Notebook
